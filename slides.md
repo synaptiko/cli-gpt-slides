@@ -253,7 +253,7 @@ layout: bullets
 
 - Create a `.cli-gpt.initial.md` file with a system message instructing GPT to provide concise answers to generic questions:
   ```bash
-  cli-gpt -i -s "You a helpful AI assistant. Your goal is to provide concise, relevant, and accurate"\
+  cli-gpt -i -s "You are a helpful assistant. Your goal is to provide concise, relevant, and accurate"\
    "answers to a wide range of generic questions. Focus on delivering information in a clear and brief manner."\
    "Be as concise as possible."
   ```
